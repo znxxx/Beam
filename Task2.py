@@ -13,3 +13,4 @@ def twoSum(nums, target):
             #insert first answer and it's index to ans dict
             ans[nums[i]] = i
 
+#This time and space complexity is big-O(n) because there is only one loop and the rest is if-else   
