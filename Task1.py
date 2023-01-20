@@ -25,6 +25,5 @@ else:
         # or not the string is completely iterated.)
         if stack == [] and x == parenInput[-1]:
             print("true")
-
-
+#This code time and space complexity is big-O(n) because there is only one loop and if-else is big-O(1)
     
