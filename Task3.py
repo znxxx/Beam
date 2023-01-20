@@ -19,4 +19,4 @@ class LRUcache:
                 self.values.pop(self.values[leftmost])
                 self.values[key] = value
 
-
+#This code time complexity of both method is Big-o(1) because there is only if-else statements
