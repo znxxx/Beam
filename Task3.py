@@ -4,10 +4,11 @@ class LRUcache:
         self.values = {}
 
     def get(self,key):
-        if key in self.values:
+        if key not in self.values:
             return -1
         else:
-            return self.values[key]
+            requested = self.values.pop(key)
+            return requested
     def put(self,key,value):
         if key in self.values:
             self.values[key] = value
