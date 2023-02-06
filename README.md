@@ -1,1 +1,1 @@
-# BeamInternship
+# Python tasks
